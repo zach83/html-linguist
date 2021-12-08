@@ -1,0 +1,44 @@
+{
+  "name": "html-linguist",
+  "version": "1.1.2",
+  "description": "Detects the most used language in HTML files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cat test.html && node index.js test.html",
+    "link-test": "npm link && html-linguist test.html && npm unlink html-linguist",
+    "more-test": "node index.js test.html test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zach83/html-linguist.git"
+  },
+  "keywords": [
+    "gh",
+    "git",
+    "github",
+    "documentation",
+    "html",
+    "linguist",
+    "page",
+    "web",
+    "site",
+    "js",
+    "javascript"
+  ],
+  "author": "zach83",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "html-linguist": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zach83/html-linguist/issues"
+  },
+  "homepage": "https://github.com/zach83/html-linguist",
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/zach83"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
